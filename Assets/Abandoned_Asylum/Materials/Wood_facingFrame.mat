@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8547250612982683855
+--- !u!114 &-3121659195188625060
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,7 +83,7 @@ Material:
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     - _DetailMap:
-        m_Texture: {fileID: 2800000, guid: dd16e1f09c60a9e40a36be8b2240ee28, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9afa5d4a88844ef48b552ef4b3695ae0, type: 3}
         m_Scale: {x: 4, y: 4}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
@@ -119,7 +119,7 @@ Material:
         m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
-        m_Texture: {fileID: 2800000, guid: 8727a438094b1f84cb515f94c618abc2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 85a64ab2788b02e4fbb57b0faae42d63, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
