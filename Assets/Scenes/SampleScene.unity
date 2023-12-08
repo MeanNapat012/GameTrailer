@@ -28521,8 +28521,27 @@ PlayableDirector:
     value: {fileID: 1196159412}
   - key: {fileID: -6433928821605731185, guid: 0107fe0284ed7634db13208c85b62f4e, type: 2}
     value: {fileID: 1973466302}
+  - key: {fileID: -511425094620593743, guid: 0107fe0284ed7634db13208c85b62f4e, type: 2}
+    value: {fileID: 963194230}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - 4b2f73a9f6b76174dac2849632b8e97e: {fileID: 1150962688}
+    - d224385dddd8818429df72e19ebad6f7: {fileID: 1196159413}
+    - 3a19231091f5f23468c2a84578c3b0af: {fileID: 2084351563}
+    - 83ac22e703d140b43ae011e0570627fc: {fileID: 1412282747}
+    - 2893b8e782bdfe4459cc4d6b921ba556: {fileID: 490373962}
+    - 5bd92db5fc712e943849615c96e02be4: {fileID: 1019008644}
+    - e6e95256b4830394eabf218a2af6eeb7: {fileID: 82195977}
+    - 4f66b7f6292481a429dbe4b0743f4e6a: {fileID: 39710279}
+    - 6c07c87cb8f98f24eb66ef4df383d008: {fileID: 1372439138}
+    - ea413b3e398d4444ba1d549ca91b0c26: {fileID: 1006545158}
+    - c881c3f9b1de24942a064f0fee4f2424: {fileID: 40227864}
+    - dd4d71660fd52e94d8a9c3e88db9bf3e: {fileID: 1573045730}
+    - 46e3de2cd48656741bcad2c59d4b4a42: {fileID: 1100564391}
+    - a2b691c3832bb4744bce8f05cfaef5fa: {fileID: 706994731}
+    - 02bb54db678678944a24352d6e40219b: {fileID: 39710279}
+    - 38011b6c74718904c802c696e47f463c: {fileID: 1006545158}
+    - cbafe974e2c912f4783bc07ca8f71b67: {fileID: 1080842647}
 --- !u!4 &1668638663
 Transform:
   m_ObjectHideFlags: 0
@@ -32246,7 +32265,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a05de5a920e4124f91be09bb22db0bf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.9153312
+      value: -1.915331
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a05de5a920e4124f91be09bb22db0bf, type: 3}
       propertyPath: m_LocalRotation.w
