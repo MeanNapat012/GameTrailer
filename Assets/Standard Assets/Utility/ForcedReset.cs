@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.UI; // เพิ่มไลบรารี UI สำหรับใช้ UI.Image
 
-[RequireComponent(typeof (GUITexture))]
+[RequireComponent(typeof (Image))] // แก้ไขให้ใช้ Image แทน GUITexture
 public class ForcedReset : MonoBehaviour
 {
     private void Update()
@@ -11,7 +12,7 @@ public class ForcedReset : MonoBehaviour
         if (CrossPlatformInputManager.GetButtonDown("ResetObject"))
         {
             //... reload the scene
-            Application.LoadLevelAsync(Application.loadedLevelName);
+            UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
